@@ -4,8 +4,6 @@
  * @param {any} x
  * @return {Array<any>}
  */
-function toDenseArray(x) {
-  return [].concat(x).filter(y => y !== undefined);
+export default function toDenseArray(x) {
+  return [].concat(x).filter((y) => y !== undefined);
 }
-
-export default toDenseArray;
