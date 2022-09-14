@@ -7,7 +7,6 @@ import doubleClickZoom from "./double_click_zoom";
 import euclideanDistance from "./euclidean_distance";
 import featuresAt from "./features_at";
 import getFeaturesAndSetCursor from "./get_features_and_set_cursor";
-import index from "./index";
 import isClick from "./is_click";
 import isEventAtCoordinates from "./is_event_at_coordinates";
 import isTap from "./is_tap";
@@ -31,7 +30,6 @@ export {
   euclideanDistance,
   featuresAt,
   getFeaturesAndSetCursor,
-  index,
   isClick,
   isEventAtCoordinates,
   isTap,
