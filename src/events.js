@@ -84,7 +84,6 @@ export default function (ctx) {
   };
 
   events.touchstart = function (event) {
-    console.log("touchstart", ctx);
     if (!ctx.options.touchEnabled) {
       return;
     }
