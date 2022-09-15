@@ -84,7 +84,7 @@ export default function (ctx) {
   };
 
   events.touchstart = function (event) {
-    // franco
+    console.log("touchstart", ctx);
     if (!ctx.options.touchEnabled) {
       return;
     }
